@@ -1,7 +1,6 @@
 package com.steps;
 
 import com.pages.YandexHomePage;
-import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
 

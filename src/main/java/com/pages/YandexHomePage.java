@@ -4,7 +4,6 @@ import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.annotations.WhenPageOpens;
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
 import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getPages;
 

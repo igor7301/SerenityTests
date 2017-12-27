@@ -1,24 +1,17 @@
 import com.SearchRequest;
-import com.pages.YandexMarketAbstractPage;
-import com.pages.YandexMarketPage;
 import com.pages.YandexMarketPageFactory;
 import com.steps.YandexHomePageSteps;
 import com.steps.YandexMarketPageSteps;
 import com.steps.YandexResultsPageSteps;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
-import net.thucydides.core.annotations.ManagedPages;
-import net.thucydides.core.annotations.Step;
 import net.thucydides.core.annotations.Steps;
-import net.thucydides.core.pages.Pages;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
-
-import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getPages;
 
 
 /**
