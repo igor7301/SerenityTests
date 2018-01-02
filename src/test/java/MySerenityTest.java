@@ -20,7 +20,12 @@ import java.util.Arrays;
 @RunWith(SerenityRunner.class)
 public class MySerenityTest {
 
-    @Managed(driver = "chrome")
+    // если запустить так
+    // то системное пропрети будет перезатерто этим
+    //@Managed(driver = "chrome")
+
+    //устанавливаеим тип браузера через системное проперти webdriver.driver
+    @Managed
     public WebDriver webdriver;
 
 //    @ManagedPages(defaultUrl = "http://www.yandex.com")

@@ -14,7 +14,7 @@
         <serenity.maven.version>1.4.0</serenity.maven.version>
         <surefire.rerunFailingTestsCount>2</surefire.rerunFailingTestsCount>
         <webdriver.driver>chrome</webdriver.driver>
-        <webdriver.chrome.driver.path>chromedriver.exe</webdriver.chrome.driver.path>
+        <webdriver.chrome.driver.path>chromedriver_mac</webdriver.chrome.driver.path>
         <webdriver.firefox.driver.path>geckodriver_mac</webdriver.firefox.driver.path>
     </properties>
 
